@@ -1,0 +1,260 @@
+$date
+	Sat Nov 30 13:04:59 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_generator_tb $end
+$var wire 8 ! frame_data [7:0] $end
+$var wire 8 " crc [7:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ frame_data_in0 [7:0] $end
+$var reg 8 % frame_data_in1 [7:0] $end
+$var reg 8 & frame_data_in10 [7:0] $end
+$var reg 8 ' frame_data_in11 [7:0] $end
+$var reg 8 ( frame_data_in12 [7:0] $end
+$var reg 8 ) frame_data_in13 [7:0] $end
+$var reg 8 * frame_data_in14 [7:0] $end
+$var reg 8 + frame_data_in15 [7:0] $end
+$var reg 8 , frame_data_in2 [7:0] $end
+$var reg 8 - frame_data_in3 [7:0] $end
+$var reg 8 . frame_data_in4 [7:0] $end
+$var reg 8 / frame_data_in5 [7:0] $end
+$var reg 8 0 frame_data_in6 [7:0] $end
+$var reg 8 1 frame_data_in7 [7:0] $end
+$var reg 8 2 frame_data_in8 [7:0] $end
+$var reg 8 3 frame_data_in9 [7:0] $end
+$var reg 1 4 reset $end
+$var reg 1 5 start $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 8 6 frame_data_in0 [7:0] $end
+$var wire 8 7 frame_data_in1 [7:0] $end
+$var wire 8 8 frame_data_in10 [7:0] $end
+$var wire 8 9 frame_data_in11 [7:0] $end
+$var wire 8 : frame_data_in12 [7:0] $end
+$var wire 8 ; frame_data_in13 [7:0] $end
+$var wire 8 < frame_data_in14 [7:0] $end
+$var wire 8 = frame_data_in15 [7:0] $end
+$var wire 8 > frame_data_in2 [7:0] $end
+$var wire 8 ? frame_data_in3 [7:0] $end
+$var wire 8 @ frame_data_in4 [7:0] $end
+$var wire 8 A frame_data_in5 [7:0] $end
+$var wire 8 B frame_data_in6 [7:0] $end
+$var wire 8 C frame_data_in7 [7:0] $end
+$var wire 8 D frame_data_in8 [7:0] $end
+$var wire 8 E frame_data_in9 [7:0] $end
+$var wire 1 4 reset $end
+$var wire 1 5 start $end
+$var reg 4 F byte_counter [3:0] $end
+$var reg 8 G crc [7:0] $end
+$var reg 8 H frame_data [7:0] $end
+$var reg 1 I transmitting $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0I
+b0 H
+b0 G
+b0 F
+b1010 E
+b1001 D
+b1000 C
+b111 B
+b110 A
+b101 @
+b100 ?
+b11 >
+b10000 =
+b1111 <
+b1110 ;
+b1101 :
+b1100 9
+b1011 8
+b10 7
+b1 6
+05
+14
+b1010 3
+b1001 2
+b1000 1
+b111 0
+b110 /
+b101 .
+b100 -
+b11 ,
+b10000 +
+b1111 *
+b1110 )
+b1101 (
+b1100 '
+b1011 &
+b10 %
+b1 $
+0#
+b0 "
+b0 !
+$end
+#5
+1#
+#10
+0#
+15
+04
+#15
+1I
+1#
+#20
+0#
+05
+#25
+b1 F
+b1 !
+b1 H
+1#
+#30
+0#
+#35
+b1 "
+b1 G
+b10 F
+b10 !
+b10 H
+1#
+#40
+0#
+#45
+b11 F
+b11 !
+b11 H
+b11 "
+b11 G
+1#
+#50
+0#
+#55
+b0 "
+b0 G
+b100 F
+b100 !
+b100 H
+1#
+#60
+0#
+#65
+b101 F
+b101 !
+b101 H
+b100 "
+b100 G
+1#
+#70
+0#
+#75
+b1 "
+b1 G
+b110 F
+b110 !
+b110 H
+1#
+#80
+0#
+#85
+b111 F
+b111 !
+b111 H
+b111 "
+b111 G
+1#
+#90
+0#
+#95
+b0 "
+b0 G
+b1000 F
+b1000 !
+b1000 H
+1#
+#100
+0#
+#105
+b1001 F
+b1001 !
+b1001 H
+b1000 "
+b1000 G
+1#
+#110
+0#
+#115
+b1 "
+b1 G
+b1010 F
+b1010 !
+b1010 H
+1#
+#120
+0#
+#125
+b1011 F
+b1011 !
+b1011 H
+b1011 "
+b1011 G
+1#
+#130
+0#
+#135
+b0 "
+b0 G
+b1100 F
+b1100 !
+b1100 H
+1#
+#140
+0#
+#145
+b1101 F
+b1101 !
+b1101 H
+b1100 "
+b1100 G
+1#
+#150
+0#
+#155
+b1 "
+b1 G
+b1110 F
+b1110 !
+b1110 H
+1#
+#160
+0#
+#165
+b1111 F
+b1111 !
+b1111 H
+b1111 "
+b1111 G
+1#
+#170
+0#
+#175
+b0 "
+b0 G
+0I
+b0 F
+b10000 !
+b10000 H
+1#
+#180
+0#

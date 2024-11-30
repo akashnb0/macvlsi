@@ -1,0 +1,295 @@
+$date
+	Sat Nov 30 14:04:59 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_generator_with_flow_control_tb $end
+$var wire 10 ! frame_data_with_sync [9:0] $end
+$var reg 1 " clk $end
+$var reg 1 # flow_control_enable $end
+$var reg 8 $ frame_data_in0 [7:0] $end
+$var reg 8 % frame_data_in1 [7:0] $end
+$var reg 8 & frame_data_in10 [7:0] $end
+$var reg 8 ' frame_data_in11 [7:0] $end
+$var reg 8 ( frame_data_in12 [7:0] $end
+$var reg 8 ) frame_data_in13 [7:0] $end
+$var reg 8 * frame_data_in14 [7:0] $end
+$var reg 8 + frame_data_in15 [7:0] $end
+$var reg 8 , frame_data_in2 [7:0] $end
+$var reg 8 - frame_data_in3 [7:0] $end
+$var reg 8 . frame_data_in4 [7:0] $end
+$var reg 8 / frame_data_in5 [7:0] $end
+$var reg 8 0 frame_data_in6 [7:0] $end
+$var reg 8 1 frame_data_in7 [7:0] $end
+$var reg 8 2 frame_data_in8 [7:0] $end
+$var reg 8 3 frame_data_in9 [7:0] $end
+$var reg 1 4 reset $end
+$var reg 1 5 start $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # flow_control_enable $end
+$var wire 8 6 frame_data_in0 [7:0] $end
+$var wire 8 7 frame_data_in1 [7:0] $end
+$var wire 8 8 frame_data_in10 [7:0] $end
+$var wire 8 9 frame_data_in11 [7:0] $end
+$var wire 8 : frame_data_in12 [7:0] $end
+$var wire 8 ; frame_data_in13 [7:0] $end
+$var wire 8 < frame_data_in14 [7:0] $end
+$var wire 8 = frame_data_in15 [7:0] $end
+$var wire 8 > frame_data_in2 [7:0] $end
+$var wire 8 ? frame_data_in3 [7:0] $end
+$var wire 8 @ frame_data_in4 [7:0] $end
+$var wire 8 A frame_data_in5 [7:0] $end
+$var wire 8 B frame_data_in6 [7:0] $end
+$var wire 8 C frame_data_in7 [7:0] $end
+$var wire 8 D frame_data_in8 [7:0] $end
+$var wire 8 E frame_data_in9 [7:0] $end
+$var wire 1 4 reset $end
+$var wire 1 5 start $end
+$var reg 4 F byte_counter [3:0] $end
+$var reg 10 G frame_data_with_sync [9:0] $end
+$var reg 1 H start_bit $end
+$var reg 1 I stop_bit $end
+$var reg 1 J transmitting $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0J
+1I
+0H
+b0 G
+b0 F
+b100 E
+b11 D
+b10 C
+b1 B
+b11111111 A
+b11101110 @
+b11011101 ?
+b11001100 >
+b10000 =
+b1001 <
+b1000 ;
+b111 :
+b110 9
+b101 8
+b10111011 7
+b10101010 6
+05
+14
+b100 3
+b11 2
+b10 1
+b1 0
+b11111111 /
+b11101110 .
+b11011101 -
+b11001100 ,
+b10000 +
+b1001 *
+b1000 )
+b111 (
+b110 '
+b101 &
+b10111011 %
+b10101010 $
+0#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+15
+04
+#15
+1J
+1"
+#20
+0"
+05
+#25
+b1 F
+b1101010100 !
+b1101010100 G
+1"
+#30
+0"
+#35
+b10 F
+b1101110110 !
+b1101110110 G
+1"
+#40
+0"
+#45
+b11 F
+b1110011000 !
+b1110011000 G
+1"
+#50
+0"
+#55
+b100 F
+b1110111010 !
+b1110111010 G
+1"
+#60
+0"
+#65
+b101 F
+b1111011100 !
+b1111011100 G
+1"
+#70
+0"
+#75
+b110 F
+b1111111110 !
+b1111111110 G
+1"
+#80
+0"
+#85
+b111 F
+b1000000010 !
+b1000000010 G
+1"
+#90
+0"
+#95
+b1000 F
+b1000000100 !
+b1000000100 G
+1"
+#100
+0"
+#105
+b1001 F
+b1000000110 !
+b1000000110 G
+1"
+#110
+0"
+#115
+b1010 F
+b1000001000 !
+b1000001000 G
+1"
+#120
+0"
+1#
+#125
+0J
+b0 !
+b0 G
+1"
+#130
+0"
+#135
+1"
+#140
+0"
+#145
+1"
+#150
+0"
+#155
+1"
+#160
+0"
+#165
+1"
+#170
+0"
+0#
+#175
+1"
+#180
+0"
+#185
+1"
+#190
+0"
+#195
+1"
+#200
+0"
+#205
+1"
+#210
+0"
+#215
+1"
+#220
+0"
+#225
+1"
+#230
+0"
+#235
+1"
+#240
+0"
+#245
+1"
+#250
+0"
+#255
+1"
+#260
+0"
+#265
+1"
+#270
+0"
+#275
+1"
+#280
+0"
+#285
+1"
+#290
+0"
+#295
+1"
+#300
+0"
+#305
+1"
+#310
+0"
+#315
+1"
+#320
+0"
+#325
+1"
+#330
+0"
+#335
+1"
+#340
+0"
+#345
+1"
+#350
+0"
+#355
+1"
+#360
+0"
+#365
+1"
+#370
+0"

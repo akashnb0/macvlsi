@@ -1,0 +1,71 @@
+$date
+	Sat Nov 30 13:09:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_receiver_tb $end
+$var wire 1 ! crc_valid $end
+$var reg 1 " clk $end
+$var reg 8 # crc_received [7:0] $end
+$var reg 8 $ frame_data [7:0] $end
+$var reg 1 % reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 & crc_received [7:0] $end
+$var wire 8 ' frame_data [7:0] $end
+$var wire 1 % reset $end
+$var reg 1 ! crc_valid $end
+$var reg 8 ( received_crc [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+1%
+b0 $
+b0 #
+0"
+0!
+$end
+#5
+1"
+#10
+0"
+b1 #
+b1 &
+b1 $
+b1 '
+0%
+#15
+b1 (
+1"
+#20
+0"
+b11 #
+b11 &
+b10 $
+b10 '
+#25
+b11 (
+1"
+#30
+0"
+b10001 #
+b10001 &
+b10000 $
+b10000 '
+#35
+b10011 (
+1"
+#40
+0"

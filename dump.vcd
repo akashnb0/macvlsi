@@ -1,0 +1,248 @@
+$date
+	Sat Nov 30 12:45:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_generator_tb $end
+$var wire 8 ! frame_data_tb [7:0] $end
+$var reg 1 " clk_tb $end
+$var reg 1 # reset_tb $end
+$var reg 1 $ start_tb $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 % frame_data_in0 [7:0] $end
+$var wire 8 & frame_data_in1 [7:0] $end
+$var wire 8 ' frame_data_in10 [7:0] $end
+$var wire 8 ( frame_data_in11 [7:0] $end
+$var wire 8 ) frame_data_in12 [7:0] $end
+$var wire 8 * frame_data_in13 [7:0] $end
+$var wire 8 + frame_data_in14 [7:0] $end
+$var wire 8 , frame_data_in15 [7:0] $end
+$var wire 8 - frame_data_in2 [7:0] $end
+$var wire 8 . frame_data_in3 [7:0] $end
+$var wire 8 / frame_data_in4 [7:0] $end
+$var wire 8 0 frame_data_in5 [7:0] $end
+$var wire 8 1 frame_data_in6 [7:0] $end
+$var wire 8 2 frame_data_in7 [7:0] $end
+$var wire 8 3 frame_data_in8 [7:0] $end
+$var wire 8 4 frame_data_in9 [7:0] $end
+$var wire 1 # reset $end
+$var wire 1 $ start $end
+$var reg 4 5 byte_counter [3:0] $end
+$var reg 8 6 frame_data [7:0] $end
+$var reg 1 7 transmitting $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+07
+b0 6
+b0 5
+b1000100 4
+b110011 3
+b100010 2
+b10001 1
+b11111111 0
+b11101110 /
+b11011101 .
+b11001100 -
+b0 ,
+b10011001 +
+b10001000 *
+b1110111 )
+b1100110 (
+b1010101 '
+b10111011 &
+b10101010 %
+0$
+1#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+1$
+0#
+#15
+17
+1"
+#20
+0"
+#25
+b1 5
+b10101010 !
+b10101010 6
+1"
+#30
+0"
+#35
+b10 5
+b10111011 !
+b10111011 6
+1"
+#40
+0"
+#45
+b11 5
+b11001100 !
+b11001100 6
+1"
+#50
+0"
+#55
+b100 5
+b11011101 !
+b11011101 6
+1"
+#60
+0"
+#65
+b101 5
+b11101110 !
+b11101110 6
+1"
+#70
+0"
+#75
+b110 5
+b11111111 !
+b11111111 6
+1"
+#80
+0"
+#85
+b111 5
+b10001 !
+b10001 6
+1"
+#90
+0"
+#95
+b1000 5
+b100010 !
+b100010 6
+1"
+#100
+0"
+#105
+b1001 5
+b110011 !
+b110011 6
+1"
+#110
+0"
+#115
+b1010 5
+b1000100 !
+b1000100 6
+1"
+#120
+0"
+#125
+b1011 5
+b1010101 !
+b1010101 6
+1"
+#130
+0"
+#135
+b1100 5
+b1100110 !
+b1100110 6
+1"
+#140
+0"
+#145
+b1101 5
+b1110111 !
+b1110111 6
+1"
+#150
+0"
+#155
+b1110 5
+b10001000 !
+b10001000 6
+1"
+#160
+0"
+#165
+b1111 5
+b10011001 !
+b10011001 6
+1"
+#170
+0"
+#175
+07
+b0 5
+b0 !
+b0 6
+1"
+#180
+0"
+#185
+17
+1"
+#190
+0"
+#195
+b1 5
+b10101010 !
+b10101010 6
+1"
+#200
+0"
+#205
+b10 5
+b10111011 !
+b10111011 6
+1"
+#210
+0"
+0$
+#215
+b11 5
+b11001100 !
+b11001100 6
+1"
+#220
+0"
+#225
+b100 5
+b11011101 !
+b11011101 6
+1"
+#230
+0"
+#235
+b101 5
+b11101110 !
+b11101110 6
+1"
+#240
+0"
+#245
+b110 5
+b11111111 !
+b11111111 6
+1"
+#250
+0"
+#255
+b111 5
+b10001 !
+b10001 6
+1"
+#260
+0"

@@ -1,0 +1,197 @@
+$date
+	Sat Nov 30 13:13:04 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_generator_with_parity_tb $end
+$var wire 9 ! frame_data_with_parity [8:0] $end
+$var reg 1 " clk $end
+$var reg 8 # frame_data_in0 [7:0] $end
+$var reg 8 $ frame_data_in1 [7:0] $end
+$var reg 8 % frame_data_in10 [7:0] $end
+$var reg 8 & frame_data_in11 [7:0] $end
+$var reg 8 ' frame_data_in12 [7:0] $end
+$var reg 8 ( frame_data_in13 [7:0] $end
+$var reg 8 ) frame_data_in14 [7:0] $end
+$var reg 8 * frame_data_in15 [7:0] $end
+$var reg 8 + frame_data_in2 [7:0] $end
+$var reg 8 , frame_data_in3 [7:0] $end
+$var reg 8 - frame_data_in4 [7:0] $end
+$var reg 8 . frame_data_in5 [7:0] $end
+$var reg 8 / frame_data_in6 [7:0] $end
+$var reg 8 0 frame_data_in7 [7:0] $end
+$var reg 8 1 frame_data_in8 [7:0] $end
+$var reg 8 2 frame_data_in9 [7:0] $end
+$var reg 1 3 reset $end
+$var reg 1 4 start $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 5 frame_data_in0 [7:0] $end
+$var wire 8 6 frame_data_in1 [7:0] $end
+$var wire 8 7 frame_data_in10 [7:0] $end
+$var wire 8 8 frame_data_in11 [7:0] $end
+$var wire 8 9 frame_data_in12 [7:0] $end
+$var wire 8 : frame_data_in13 [7:0] $end
+$var wire 8 ; frame_data_in14 [7:0] $end
+$var wire 8 < frame_data_in15 [7:0] $end
+$var wire 8 = frame_data_in2 [7:0] $end
+$var wire 8 > frame_data_in3 [7:0] $end
+$var wire 8 ? frame_data_in4 [7:0] $end
+$var wire 8 @ frame_data_in5 [7:0] $end
+$var wire 8 A frame_data_in6 [7:0] $end
+$var wire 8 B frame_data_in7 [7:0] $end
+$var wire 8 C frame_data_in8 [7:0] $end
+$var wire 8 D frame_data_in9 [7:0] $end
+$var wire 1 3 reset $end
+$var wire 1 4 start $end
+$var reg 4 E byte_counter [3:0] $end
+$var reg 9 F frame_data_with_parity [8:0] $end
+$var reg 1 G parity_bit $end
+$var reg 1 H transmitting $end
+$scope function calculate_parity $end
+$var reg 8 I data [7:0] $end
+$var integer 32 J count [31:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 K i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx K
+bx J
+bx I
+0H
+0G
+b0 F
+b0 E
+b100 D
+b11 C
+b10 B
+b1 A
+b11111111 @
+b11101110 ?
+b11011101 >
+b11001100 =
+b1010 <
+b1001 ;
+b1000 :
+b111 9
+b110 8
+b101 7
+b10111011 6
+b10101010 5
+04
+13
+b100 2
+b11 1
+b10 0
+b1 /
+b11111111 .
+b11101110 -
+b11011101 ,
+b11001100 +
+b1010 *
+b1001 )
+b1000 (
+b111 '
+b110 &
+b101 %
+b10111011 $
+b10101010 #
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+14
+03
+#15
+1H
+1"
+#20
+0"
+04
+#25
+b1 E
+b10101010 !
+b10101010 F
+b1000 K
+b100 J
+b10101010 I
+1"
+#30
+0"
+#35
+b10 E
+b10111011 !
+b10111011 F
+b1000 K
+b110 J
+b10111011 I
+1"
+#40
+0"
+#45
+b11 E
+b11001100 !
+b11001100 F
+b1000 K
+b100 J
+b11001100 I
+1"
+#50
+0"
+#55
+b100 E
+b11011101 !
+b11011101 F
+b1000 K
+b110 J
+b11011101 I
+1"
+#60
+0"
+#65
+b101 E
+b0 !
+b0 F
+1"
+#70
+0"
+#75
+b110 E
+1"
+#80
+0"
+#85
+b111 E
+1"
+#90
+0"
+#95
+b1000 E
+1"
+#100
+0"
+#105
+b1001 E
+1"
+#110
+0"
+#115
+b1010 E
+1"
+#120
+0"

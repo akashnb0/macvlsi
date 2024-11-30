@@ -1,0 +1,292 @@
+$date
+	Sat Nov 30 14:10:43 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_generator_with_padding_tb $end
+$var wire 1 ! valid $end
+$var wire 8 " frame_data [7:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ frame_data_in0 [7:0] $end
+$var reg 8 % frame_data_in1 [7:0] $end
+$var reg 8 & frame_data_in10 [7:0] $end
+$var reg 8 ' frame_data_in11 [7:0] $end
+$var reg 8 ( frame_data_in12 [7:0] $end
+$var reg 8 ) frame_data_in13 [7:0] $end
+$var reg 8 * frame_data_in14 [7:0] $end
+$var reg 8 + frame_data_in15 [7:0] $end
+$var reg 8 , frame_data_in2 [7:0] $end
+$var reg 8 - frame_data_in3 [7:0] $end
+$var reg 8 . frame_data_in4 [7:0] $end
+$var reg 8 / frame_data_in5 [7:0] $end
+$var reg 8 0 frame_data_in6 [7:0] $end
+$var reg 8 1 frame_data_in7 [7:0] $end
+$var reg 8 2 frame_data_in8 [7:0] $end
+$var reg 8 3 frame_data_in9 [7:0] $end
+$var reg 1 4 reset $end
+$var reg 1 5 start $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 8 6 frame_data_in0 [7:0] $end
+$var wire 8 7 frame_data_in1 [7:0] $end
+$var wire 8 8 frame_data_in10 [7:0] $end
+$var wire 8 9 frame_data_in11 [7:0] $end
+$var wire 8 : frame_data_in12 [7:0] $end
+$var wire 8 ; frame_data_in13 [7:0] $end
+$var wire 8 < frame_data_in14 [7:0] $end
+$var wire 8 = frame_data_in15 [7:0] $end
+$var wire 8 > frame_data_in2 [7:0] $end
+$var wire 8 ? frame_data_in3 [7:0] $end
+$var wire 8 @ frame_data_in4 [7:0] $end
+$var wire 8 A frame_data_in5 [7:0] $end
+$var wire 8 B frame_data_in6 [7:0] $end
+$var wire 8 C frame_data_in7 [7:0] $end
+$var wire 8 D frame_data_in8 [7:0] $end
+$var wire 8 E frame_data_in9 [7:0] $end
+$var wire 1 4 reset $end
+$var wire 1 5 start $end
+$var parameter 8 F EOF $end
+$var parameter 32 G MIN_FRAME_SIZE $end
+$var parameter 8 H SOF $end
+$var reg 4 I byte_counter [3:0] $end
+$var reg 8 J frame_data [7:0] $end
+$var reg 1 K transmitting $end
+$var reg 1 ! valid $end
+$var integer 32 L frame_length [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111110 H
+b1000000 G
+b1111111 F
+$end
+#0
+$dumpvars
+bx L
+xK
+bx J
+bx I
+b100 E
+b11 D
+b10 C
+b1 B
+b11111111 A
+b11101110 @
+b11011101 ?
+b11001100 >
+b1010 =
+b1001 <
+b1000 ;
+b111 :
+b110 9
+b101 8
+b10111011 7
+b10101010 6
+05
+04
+b100 3
+b11 2
+b10 1
+b1 0
+b11111111 /
+b11101110 .
+b11011101 -
+b11001100 ,
+b1010 +
+b1001 *
+b1000 )
+b111 (
+b110 '
+b101 &
+b10111011 %
+b10101010 $
+0#
+bx "
+x!
+$end
+#5
+b0 L
+0K
+b0 I
+0!
+b0 "
+b0 J
+14
+1#
+#10
+04
+0#
+#15
+1!
+1K
+15
+1#
+#20
+05
+0#
+#25
+b1 L
+b1 I
+b1111110 "
+b1111110 J
+1#
+#30
+0#
+#35
+b10 L
+b10 I
+b10111011 "
+b10111011 J
+1#
+#40
+0#
+#45
+b11 L
+b11 I
+b11001100 "
+b11001100 J
+1#
+#50
+0#
+#55
+b100 L
+b100 I
+b11011101 "
+b11011101 J
+1#
+#60
+0#
+#65
+b101 L
+b101 I
+b11101110 "
+b11101110 J
+1#
+#70
+0#
+#75
+b110 L
+b110 I
+b11111111 "
+b11111111 J
+1#
+#80
+0#
+#85
+b111 L
+b111 I
+b1 "
+b1 J
+1#
+#90
+0#
+#95
+b1000 L
+b1000 I
+b10 "
+b10 J
+1#
+#100
+0#
+#105
+b1001 L
+b1001 I
+b11 "
+b11 J
+1#
+#110
+0#
+#115
+b1010 L
+b1010 I
+b100 "
+b100 J
+1#
+#120
+0#
+#125
+b1011 L
+b1011 I
+b101 "
+b101 J
+1#
+#130
+0#
+#135
+b1100 L
+b1100 I
+b110 "
+b110 J
+1#
+#140
+0#
+#145
+b1101 L
+b1101 I
+b111 "
+b111 J
+1#
+#150
+0#
+#155
+b1110 L
+b1110 I
+b1000 "
+b1000 J
+1#
+#160
+0#
+#165
+b1111 L
+b1111 I
+b1001 "
+b1001 J
+1#
+#170
+0#
+#175
+b10000 L
+b0 I
+b1010 "
+b1010 J
+1#
+#180
+0#
+#185
+b10001 L
+b1 I
+b1111110 "
+b1111110 J
+1#
+#190
+0#
+#195
+b10010 L
+b10 I
+b10111011 "
+b10111011 J
+1#
+#200
+0#
+#205
+b10011 L
+b11 I
+b11001100 "
+b11001100 J
+1#
+#210
+0#
+#215
+b10100 L
+b100 I
+b11011101 "
+b11011101 J
+1#
+#220
+0#

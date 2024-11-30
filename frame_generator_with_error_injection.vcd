@@ -1,0 +1,329 @@
+$date
+	Sat Nov 30 14:15:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module frame_generator_with_error_injection_tb $end
+$var wire 1 ! valid $end
+$var wire 8 " frame_data [7:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ error_injection $end
+$var reg 8 % error_position [7:0] $end
+$var reg 8 & frame_data_in0 [7:0] $end
+$var reg 8 ' frame_data_in1 [7:0] $end
+$var reg 8 ( frame_data_in10 [7:0] $end
+$var reg 8 ) frame_data_in11 [7:0] $end
+$var reg 8 * frame_data_in12 [7:0] $end
+$var reg 8 + frame_data_in13 [7:0] $end
+$var reg 8 , frame_data_in14 [7:0] $end
+$var reg 8 - frame_data_in15 [7:0] $end
+$var reg 8 . frame_data_in2 [7:0] $end
+$var reg 8 / frame_data_in3 [7:0] $end
+$var reg 8 0 frame_data_in4 [7:0] $end
+$var reg 8 1 frame_data_in5 [7:0] $end
+$var reg 8 2 frame_data_in6 [7:0] $end
+$var reg 8 3 frame_data_in7 [7:0] $end
+$var reg 8 4 frame_data_in8 [7:0] $end
+$var reg 8 5 frame_data_in9 [7:0] $end
+$var reg 1 6 reset $end
+$var reg 1 7 start $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 1 $ error_injection $end
+$var wire 8 8 error_position [7:0] $end
+$var wire 8 9 frame_data_in0 [7:0] $end
+$var wire 8 : frame_data_in1 [7:0] $end
+$var wire 8 ; frame_data_in10 [7:0] $end
+$var wire 8 < frame_data_in11 [7:0] $end
+$var wire 8 = frame_data_in12 [7:0] $end
+$var wire 8 > frame_data_in13 [7:0] $end
+$var wire 8 ? frame_data_in14 [7:0] $end
+$var wire 8 @ frame_data_in15 [7:0] $end
+$var wire 8 A frame_data_in2 [7:0] $end
+$var wire 8 B frame_data_in3 [7:0] $end
+$var wire 8 C frame_data_in4 [7:0] $end
+$var wire 8 D frame_data_in5 [7:0] $end
+$var wire 8 E frame_data_in6 [7:0] $end
+$var wire 8 F frame_data_in7 [7:0] $end
+$var wire 8 G frame_data_in8 [7:0] $end
+$var wire 8 H frame_data_in9 [7:0] $end
+$var wire 1 6 reset $end
+$var wire 1 7 start $end
+$var parameter 8 I EOF $end
+$var parameter 32 J MIN_FRAME_SIZE $end
+$var parameter 8 K SOF $end
+$var reg 4 L byte_counter [3:0] $end
+$var reg 8 M frame_data [7:0] $end
+$var reg 8 N injected_frame_data [7:0] $end
+$var reg 1 O transmitting $end
+$var reg 1 ! valid $end
+$var integer 32 P frame_length [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111110 K
+b1000000 J
+b1111111 I
+$end
+#0
+$dumpvars
+bx P
+xO
+bx N
+bx M
+bx L
+b100 H
+b11 G
+b10 F
+b1 E
+b11111111 D
+b11101110 C
+b11011101 B
+b11001100 A
+b1010 @
+b1001 ?
+b1000 >
+b111 =
+b110 <
+b101 ;
+b10111011 :
+b10101010 9
+b100 8
+07
+06
+b100 5
+b11 4
+b10 3
+b1 2
+b11111111 1
+b11101110 0
+b11011101 /
+b11001100 .
+b1010 -
+b1001 ,
+b1000 +
+b111 *
+b110 )
+b101 (
+b10111011 '
+b10101010 &
+b100 %
+0$
+0#
+bx "
+x!
+$end
+#5
+b0 P
+0O
+b0 L
+0!
+b0 "
+b0 M
+16
+1#
+#10
+06
+0#
+#15
+1!
+1O
+17
+1#
+#20
+07
+0#
+#25
+b1 P
+b1 L
+b10111010 "
+b10111010 M
+b10111010 N
+1$
+1#
+#30
+0#
+#35
+b10 P
+b10 L
+b10101011 "
+b10101011 M
+b10101011 N
+1#
+#40
+0#
+#45
+b11 P
+b11 L
+b11011100 "
+b11011100 M
+b11011100 N
+1#
+#50
+0#
+#55
+b100 P
+b100 L
+b11001101 "
+b11001101 M
+b11001101 N
+1#
+#60
+0#
+#65
+b101 P
+b101 L
+b11111110 "
+b11111110 M
+b11111110 N
+1#
+#70
+0#
+#75
+b110 P
+b110 L
+b11101111 "
+b11101111 M
+b11101111 N
+1#
+#80
+0#
+#85
+b111 P
+b111 L
+b10001 "
+b10001 M
+b10001 N
+1#
+#90
+0#
+#95
+b1000 P
+b1000 L
+b10010 "
+b10010 M
+b10010 N
+1#
+#100
+0#
+#105
+b1001 P
+b1001 L
+b10011 "
+b10011 M
+b10011 N
+1#
+#110
+0#
+#115
+b1010 P
+b1010 L
+b10100 "
+b10100 M
+b10100 N
+1#
+#120
+0#
+#125
+b1011 P
+b1011 L
+b10101 "
+b10101 M
+b10101 N
+1#
+#130
+0#
+#135
+b1100 P
+b1100 L
+b10110 "
+b10110 M
+b10110 N
+1#
+#140
+0#
+#145
+b1101 P
+b1101 L
+b10111 "
+b10111 M
+b10111 N
+1#
+#150
+0#
+#155
+b1110 P
+b1110 L
+b11000 "
+b11000 M
+b11000 N
+1#
+#160
+0#
+#165
+b1111 P
+b1111 L
+b11001 "
+b11001 M
+b11001 N
+1#
+#170
+0#
+#175
+b10000 P
+b0 L
+b11010 "
+b11010 M
+b11010 N
+1#
+#180
+0#
+#185
+b10001 P
+b1 L
+b10111010 "
+b10111010 M
+b10111010 N
+1#
+#190
+0#
+#195
+b10010 P
+b10 L
+b10101011 "
+b10101011 M
+b10101011 N
+1#
+#200
+0#
+#205
+b10011 P
+b11 L
+b11011100 "
+b11011100 M
+b11011100 N
+1#
+#210
+0#
+#215
+b10100 P
+b100 L
+b11001101 "
+b11001101 M
+b11001101 N
+1#
+#220
+0#
+#225
+b10101 P
+b101 L
+b11111110 "
+b11111110 M
+b11111110 N
+1#
