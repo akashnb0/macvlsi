@@ -56,7 +56,7 @@ macvlsi/
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame, with a valid signal indicating when a frame is ready.
 
-![Frame Generator Output](Screenshot/Output1.jpg)
+![Frame Generator Output](Screenshot/output1.jpg)
 
 
 ---
@@ -72,7 +72,7 @@ macvlsi/
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame with the CRC appended at the end.
 
-  ![Frame Generator with CRC Output](Screenshot/Output2.jpg)
+  ![Frame Generator with CRC Output](Screenshot/output2.jpg)
 
 ---
 
@@ -88,7 +88,7 @@ macvlsi/
 - **Outputs**: Extracted data and a signal indicating if there was a CRC error.
 
 
-  ![Frame Receiver](Screenshot/Output3.jpg)
+  ![Frame Receiver](Screenshot/output3.jpg)
 
 ---
 
@@ -104,7 +104,7 @@ macvlsi/
 - **Outputs**: Ethernet frame with a parity bit for each byte.
 
 
-  ![Frame Generator with Parity Bit Output](Screenshot/Output4.jpg)
+  ![Frame Generator with Parity Bit Output](Screenshot/output4.jpg)
 
 ---
 
@@ -120,7 +120,7 @@ macvlsi/
 - **Outputs**: Ethernet frame with Start and Stop bits added for synchronization.
 
 
-  ![Frame Generator with Synchronization Output](Screenshot/Output5.jpg)
+  ![Frame Generator with Synchronization Output](Screenshot/output5.jpg)
 
 ---
 
@@ -136,7 +136,7 @@ macvlsi/
 - **Outputs**: Ethernet frame with flow control signals indicating whether the receiver is ready to accept more data.
 
 
-  ![Frame Generator with Flow Control Output](Screenshot/Output6.jpg)
+  ![Frame Generator with Flow Control Output](Screenshot/output6.jpg)
 
 ---
 
@@ -152,7 +152,7 @@ macvlsi/
 - **Outputs**: Ethernet frame, with padding added if necessary to meet the minimum size.
 
 
-  ![Frame Generator with Padding Output](Screenshot/Output7.jpg)
+  ![Frame Generator with Padding Output](Screenshot/output7.jpg)
 
 ---
 
@@ -168,7 +168,7 @@ macvlsi/
 - **Outputs**: Ethernet frame with error injected at a specified bit position.
 
 
-  ![Frame Generator with Error Injection Output](Screenshot/Output8.jpg)
+  ![Frame Generator with Error Injection Output](Screenshot/output8.jpg)
 
 ---
 
