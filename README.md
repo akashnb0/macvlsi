@@ -11,13 +11,11 @@ This project is a **MAC Frame Generator** designed to simulate Ethernet frame cr
   
 ## Project Format Tree
 macvlsi/
-├── dump.vcd
-├── frame_gen_with_flow_control.vcd
 ├── frame_generator.v
-├── frame_generator_tb.out
 ├── frame_generator_tb.v
 ├── frame_generator_tb.vcd
-├── frame_generator_with_error_injection.out
+├── frame_generator_tb.out
+├── frame_gen_with_flow_control.vcd
 ├── frame_generator_with_error_injection.v
 ├── frame_generator_with_error_injection.vcd
 ├── frame_generator_with_error_injection_tb.v
@@ -40,7 +38,18 @@ macvlsi/
 ├── frame_receiver_tb.out
 ├── frame_receiver_tb.v
 ├── frame_receiver_tb.vcd
-└── test.out
+├── dump.vcd
+├── test.out
+├── Screenshots/
+│   ├── Output1.jpg
+│   ├── Output2.jpg
+│   ├── Output3.jpg
+│   ├── Output4.jpg
+│   ├── Output5.jpg
+│   ├── Output6.jpg
+│   ├── Output7.jpg
+│   ├── Output8.jpg
+├── README.md
 
 
 ---
