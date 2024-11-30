@@ -56,6 +56,9 @@ macvlsi/
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame, with a valid signal indicating when a frame is ready.
 
+![Frame Generator Output](Screenshots/Output1.jpg)
+
+
 ---
 
 ### Frame Generator with CRC
@@ -68,6 +71,8 @@ macvlsi/
     ```
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame with the CRC appended at the end.
+
+  ![Frame Generator with CRC Output](Screenshots/Output2.jpg)
 
 ---
 
@@ -82,6 +87,9 @@ macvlsi/
 - **Inputs**: A complete Ethernet frame with CRC.
 - **Outputs**: Extracted data and a signal indicating if there was a CRC error.
 
+
+  ![Frame Receiver](Screenshots/Output3.jpg)
+
 ---
 
 ### Frame Generator with Parity Bit
@@ -94,6 +102,9 @@ macvlsi/
     ```
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame with a parity bit for each byte.
+
+
+  ![Frame Generator with Parity Bit Output](Screenshots/Output4.jpg)
 
 ---
 
@@ -108,6 +119,9 @@ macvlsi/
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame with Start and Stop bits added for synchronization.
 
+
+  ![Frame Generator with Synchronization Output](Screenshots/Output5.jpg)
+
 ---
 
 ### Frame Generator with Flow Control
@@ -120,6 +134,9 @@ macvlsi/
     ```
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame with flow control signals indicating whether the receiver is ready to accept more data.
+
+
+  ![Frame Generator with Flow Control Output](Screenshots/Output6.jpg)
 
 ---
 
@@ -134,6 +151,9 @@ macvlsi/
 - **Inputs**: A set of 16 bytes of frame data.
 - **Outputs**: Ethernet frame, with padding added if necessary to meet the minimum size.
 
+
+  ![Frame Generator with Padding Output](Screenshots/Output7.jpg)
+
 ---
 
 ### Frame Generator with Error Injection
@@ -147,6 +167,9 @@ macvlsi/
 - **Inputs**: A set of 16 bytes of frame data and an error injection signal.
 - **Outputs**: Ethernet frame with error injected at a specified bit position.
 
+
+  ![Frame Generator with Error Injection Output](Screenshots/Output8.jpg)
+
 ---
 
 ## Contact Information
@@ -159,5 +182,4 @@ macvlsi/
 
 ---
 
-Feel free to explore the project and experiment with various features such as error detection, flow control, and frame synchronization. Enjoy building robust Ethernet communication systems!
 
