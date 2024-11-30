@@ -1,4 +1,6 @@
-# MAC Frame Generator
+# MAC Frame Generator 
+Designing a Robust Ethernet Frame Generator with Error Handling and Control Mechanisms using Verilog with Icarus Verilog and GTKWave
+
 
 ## Introduction
 This project is a **MAC Frame Generator** designed to simulate Ethernet frame creation, including error detection and injection functionalities. It generates frames with various enhancements such as CRC, parity, flow control, and more, allowing for comprehensive testing and validation of Ethernet communication. The project is implemented in **Verilog** and aims to provide a detailed, modular approach to frame generation and error handling.
