@@ -10,6 +10,7 @@ This project is a **MAC Frame Generator** designed to simulate Ethernet frame cr
 - Provides a comprehensive testbench to verify frame generation and error detection.
   
 ## Project Format Tree
+```
 macvlsi/
 ├── frame_generator.v
 ├── frame_generator_tb.v
@@ -50,7 +51,7 @@ macvlsi/
 │   ├── Output7.jpg
 │   ├── Output8.jpg
 ├── README.md
-
+```
 
 ---
 
